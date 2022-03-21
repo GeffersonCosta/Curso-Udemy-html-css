@@ -1,0 +1,41 @@
+body{
+	background: #d2d2c1 url('imagens/fundo.png');
+	font: 18px italic;
+	
+
+}
+#principal{
+	border: 0px solid red;
+	width: 900px;
+}
+#menu{
+	background: #c5c5b2;
+	padding: 15px;
+}
+#conteudo{
+
+	background: white;
+	padding: 10px;
+	color: #4B566A;
+	
+}
+#centralizar{
+	text-align: center;
+}
+.img-campanha{
+	border: 10px solid  #c3c3a3;
+}
+#contato{
+	color: black;
+}
+a{
+	text-decoration: none;
+	color: #4B566A;
+	padding: 5px;
+	font-weight: bold;
+
+}
+h1{
+	font-size: 1.2em;
+	font-weight: bold;
+}

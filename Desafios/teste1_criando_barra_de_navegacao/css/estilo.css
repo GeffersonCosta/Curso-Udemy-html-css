@@ -1,0 +1,45 @@
+
+ul{
+	padding: 0;
+	margin: 0;
+
+	width: 760px;
+	
+	background: url(../imagens/fundo-horizontal.png) repeat-x;
+	list-style: none;
+	float: left;
+	
+}
+ul li {
+	
+	float: left;
+	
+}
+li a{
+
+	display: block;
+	padding: 0 2em;
+	line-height: 2em;
+	background: url(../imagens/divisor.png) repeat-y;
+	color:  #fff;
+	text-decoration: none;
+}
+
+li a:hover{
+	color: #085662;
+	background:  #44cade;
+}
+
+li .primeiro a{
+	background: none;
+}
+
+
+#home .home a,
+#sobre .sobre a,
+#servicos .servicos a{
+	color: #085662;
+	background:  #44cade;
+
+}
+

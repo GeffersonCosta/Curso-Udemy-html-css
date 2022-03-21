@@ -1,0 +1,107 @@
+
+
+
+/*******************
+Barra de navegacao vertical*/
+/*
+ul{
+	
+
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	
+	padding: 5px 20px;
+	background: url(../imagens/seta.png)no-repeat left center ;
+
+
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a{
+	/*border: 1px solid red;
+	width: 200px;
+	height: 40px;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	display: block;
+	background: #f7b600 url(../imagens/menu.png) no-repeat left; 
+}
+
+a:hover{
+	background-position: right bottom; 
+	background-color: #f99200;
+	color: #fff;
+}
+
+#home .home a,
+ #sobre .sobre a,
+ #servicos .servicos a{
+	background-position: right bottom; 
+	background-color: #f99200;
+	color: #fff;
+}
+*/
+
+/**************************************
+Barra de navegacao horizontal*/
+
+
+
+ul{
+	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+	background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+	float: left;
+}
+
+ul li{
+
+	
+	float: left;
+}
+
+ul a{
+
+	display: block;
+	padding: 0 2em;
+	line-height: 2em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) repeat-y;
+
+}
+
+ul .primeiro a{
+	background: none;
+}
+
+ul a:hover{
+	color: #085662;
+	background: #44cade;
+
+}
+
+#home .home a,
+#sobre .sobre a,
+#servicos .servicos a{
+
+	color: #085662;
+	background: #44cade;
+
+}
+
+
