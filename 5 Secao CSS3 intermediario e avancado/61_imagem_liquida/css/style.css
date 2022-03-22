@@ -14,6 +14,7 @@ body{
 #marca{
 	color: white;
 	height: 100px;
+	padding: 30px;
 	background-image:url("../imagens/cabecalho2.jpg");
 	background-position: top center;
 	text-align: center;
