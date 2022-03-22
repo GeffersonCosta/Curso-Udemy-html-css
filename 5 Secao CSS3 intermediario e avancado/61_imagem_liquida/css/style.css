@@ -16,7 +16,7 @@ body{
 	height: 100px;
 	padding: 30px;
 	background-image:url("../imagens/cabecalho2.jpg");
-	background-position: top center;
+	background-position: center center;
 	text-align: center;
 	line-height: 100px;
 }
