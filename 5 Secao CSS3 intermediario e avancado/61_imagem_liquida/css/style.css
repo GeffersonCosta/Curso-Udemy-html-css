@@ -12,10 +12,15 @@ body{
 	background: #fff;
 }
 #marca{
+	color: white;
 	height: 100px;
-	background: #808080;
+	background-image:url("../imagens/cabecalho2.jpg");
+	background-position: top center;
 	text-align: center;
 	line-height: 100px;
+}
+img{
+	width: 100%;
 }
 #conteudo{
 	
@@ -43,22 +48,13 @@ body{
 	width: 36%;
 	background:#DCDCDC;
 	padding:10px;
-
-
 }
-
-
 #navegacao ul{
 	list-style: none;
 }
 #navegacao ul a{
 	text-decoration: none;
-
 }
-
-
-
-
 #rodape{
 	background: #ccc;
 	clear: both;
