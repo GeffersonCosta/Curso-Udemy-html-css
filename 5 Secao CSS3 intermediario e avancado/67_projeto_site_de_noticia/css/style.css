@@ -5,7 +5,7 @@
 }
 body{
 	font-family: Arial, Helvetica, sans-serif;
-	background: url(../imagens/fundo.png) repeat-x center;
+	background: #fff url(../imagens/fundo.png) repeat-x center top;
 
 	
 
@@ -13,31 +13,29 @@ body{
 
 }
 header{
+	height: 150px;
 	width: 750px;
 	background: url(../imagens/detalhe-topo.png) right top no-repeat ;
 	background-size: 150px;
 	margin: 0 auto;
-	height: 160px;
-
+	margin-bottom: 90px;
 }
 
-nav{
+header nav{
 	background-color:#b10333;
 	padding: 10px 0px 10px 0px;
 	display: inline-block;
-	
-
-
 }
-a{
+header a{
 	padding: 11.5px;
 	color: white;
 	text-decoration: none; 
 	font-weight: bold;
 	background: url(../imagens/divisor.png) no-repeat left center;
 }
-a:hover{
+header a:hover{
 	background-color:red;
+	transition: 0.5s;
 }
 .primeiro{
 	background: none;
@@ -46,3 +44,124 @@ a:hover{
 header img{
 	padding: 15px 0px 15px 0px;
 }
+/************************Fim Topo*****************************************/
+
+
+
+/********************Inicio conteudo********************/
+.fundo{
+	background-image: url(../imagens/fundo-caixa.png);
+}
+.fundo-conteudo{
+	background-color: white;
+}
+main{
+	
+	margin: 0 auto;
+	width: 960px;
+	padding: 10px;
+	border: 1px solid red;
+
+}
+main > nav{
+
+	width: 200px;
+	float:left;
+	background-color: white;
+	padding: 10px;
+	margin-right: 20px;
+	
+
+}
+main > nav > ul{
+	list-style: none;
+	background-color: white;
+	
+}
+main > nav > ul  a{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+}
+main > nav > ul  a:hover{
+	color: rgb(0, 0, 0,0.3);
+	
+}
+
+main > nav > ul > li{
+	padding: 15px;
+}
+
+section.conteudo{
+	width: 680px;
+	float: left;
+	border: 1px solid green;
+
+	
+	
+}
+article#pconteudo,article#sconteudo{
+	float: left;
+	width: 300px;
+	padding: 10px;
+	margin-bottom: 10px;
+
+}
+#pconteudo img, #sconteudo img{
+	width: 290px;
+	display: block;
+	margin: auto;
+}
+article#pconteudo{
+	margin-right: 30px;
+}
+.fundo-conteudo{
+	padding: 5px;
+}
+.formulario{
+	padding: 10px;
+	margin-top: 20px;	
+}
+.formulario input{
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.formulario h2{
+	margin-bottom: 10px;
+}
+form{
+	background-color: white;
+}
+label{
+	font-weight: bold;
+}
+input[type="submit"]{
+	background-color: #b10333;
+	color: white;
+}
+
+section a{
+	color: #b10333;
+}
+h2{
+	background-color: #294C71;
+	color: white;
+	padding: 5px;
+	margin-bottom: 10px;
+
+}
+h3{
+	background-color: #b10333;
+	color: white;
+	font-size: 1em;
+	padding: 5px;
+	display: inline-block;
+	margin-bottom: 3px;
+	margin-left: 3.5px;
+
+}
+.clear{
+	clear: both;
+}
+/********************fim conteudo********************/
