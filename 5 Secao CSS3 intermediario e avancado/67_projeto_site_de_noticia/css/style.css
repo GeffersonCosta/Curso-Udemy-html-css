@@ -96,11 +96,6 @@ main > nav > ul > li{
 section.conteudo{
 	width: 700px;
 	float: left;
-	
-
-
-	
-	
 }
 article#pconteudo,article#sconteudo,article#qconteudo,article#tconteudo{
 	
@@ -196,6 +191,45 @@ input[type="submit"]{
 section a{
 	color: #b10333;
 }
+/************INICIO OUTRAS PAGINAS********************************/
+.container-brasil,.container-mundo{
+	width: 700px;
+	float: left;
+	
+}
+#conteudo-brasil{
+	padding: 10px;
+	
+	
+}
+.container-mundo img{
+	width: 100px;
+	float: left;
+
+}
+.mundo-conteudoB{
+	width: 400px;
+  
+   float: left;
+}
+.conteudoB{
+	padding-bottom: 10px;
+	
+	float: left;
+	border-bottom: 1px solid #ccc;
+}
+.fundo-conteudo{
+	padding: 5px;
+}
+.container-mundo .fundo{
+ padding: 10px;
+}
+
+
+
+/************FIM OUTRAS PAGINAS********************************/
+
+
 h2{
 	background-color: #294C71;
 	color: white;
@@ -228,4 +262,5 @@ footer{
 	background-color: #294c71;
 	color: white;
 	text-align: center;
+	clear: both;
 }
