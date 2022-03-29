@@ -80,13 +80,16 @@ main > nav > ul{
 }
 main > nav > ul  a{
 	text-decoration: none;
-	padding: 10px;
+	padding: 5px;
 	color: black;
 	font-weight: bold;
 }
 main > nav > ul  a:hover{
 	color: rgb(0, 0, 0,0.3);
-	
+	padding-left: 10px;
+}
+main > nav > ul a:hover::before{
+	content:url(../imagens/marcador.png);
 }
 
 main > nav > ul > li{
@@ -101,7 +104,7 @@ article#pconteudo,article#sconteudo,article#qconteudo,article#tconteudo{
 	
 	width: 300px;
 	padding: 10px;
-  font-weight: bold;
+    font-weight: bold;
 	
 
 }
