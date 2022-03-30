@@ -44,7 +44,7 @@ header a:hover{
 header img{
 	padding: 15px 0px 15px 0px;
 }
-body.home nav a#home,body.brasil nav a#brasil{
+body.home nav a#home,body.brasil nav a#brasil,body.fotos nav a#fotos{
 	background: red;
 	cursor: text;
 }
@@ -54,6 +54,7 @@ body.home nav a#home,body.brasil nav a#brasil{
 
 
 /********************Inicio conteudo********************/
+
 .fundo{
 	background-image: url(../imagens/fundo-caixa.png);
 }
@@ -212,6 +213,14 @@ section a{
 	
 	
 }
+.brasil #conteudo-brasil img{
+
+	width: 100%;
+
+}
+.brasil section{
+	margin-bottom: 10px;
+}
 .container-mundo img{
 	width: 100px;
 	float: left;
@@ -234,6 +243,23 @@ section a{
 .container-mundo .fundo{
  padding: 10px;
 }
+.fotos section, #novalegislacao{
+	margin-left: 12%;
+	margin-bottom: 10px;
+}
+.fotos #conteudo-brasil img, #novalegislacao img{
+	display: block;
+	margin: auto;
+	width: 100%;
+
+}
+.fotos main{
+	height: 100%;
+	clear: both;
+}
+
+
+
 
 
 
