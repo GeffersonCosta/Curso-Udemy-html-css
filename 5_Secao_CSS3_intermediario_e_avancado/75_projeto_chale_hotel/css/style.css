@@ -122,3 +122,42 @@ ul#navegacao a:hover{
 	height: 164px;
 	float: right;
 }
+
+/* Área de conteúdos
+**************************/
+
+main{
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1180px;
+	background: url(../imagens/bg-container.png) repeat-y center center;
+	
+
+}
+
+#area-principal{
+	
+	float: left;
+	width: 50%;
+	background: url(../imagens/bg-area-principal.png) repeat-x top left;
+	padding: 15px 0px;
+}
+#area-lateral{
+	background: url(../imagens/bg-area-lateral.png) repeat-x top left;
+	float: right;
+	width: 50%;
+	padding: 20px 0px;
+}
+.conteudo{
+	
+	margin: 0 auto;
+	width: 90%;
+	padding: 10px;
+}
+footer{
+	background-color: black;
+	color: white;
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1180px;
+}
