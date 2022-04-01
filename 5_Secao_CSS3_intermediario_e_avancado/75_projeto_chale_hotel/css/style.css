@@ -148,16 +148,57 @@ main{
 	width: 50%;
 	padding: 20px 0px;
 }
+
 .conteudo{
 	
 	margin: 0 auto;
 	width: 90%;
 	padding: 10px;
 }
+.conteudo img{
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+}
+.conteudo p{
+	font-size: 0.8em;
+	color: black;
+}
+.conteudo h3{
+	font-size: 0.9em;
+	padding-bottom:5px ;
+	color: #7d7640;
+	background: url(../imagens/ornamento.png) no-repeat center right;
+}
+.conteudo ul{
+	border-bottom: 1px solid #fff;
+	float: left;
+	padding:10px ;
+}
+.conteudo ul:hover{
+	background-color: #fdf6be;
+	transition: 0.5s;
+
+}
+
+
 footer{
-	background-color: black;
-	color: white;
+	background:#fff url(../imagens/bg-rodape.png) repeat-x top;
+	color: #7d7640;
 	margin: 0 auto;
 	min-width: 740px;
-	max-width: 1180px;
+	max-width: 1150px;
+	padding: 16px;
+}
+/* Formatacoes de texto
+***************************/
+h2{
+color: #7d7640;
+font-size: 1.1em;
+padding: 5px 0px ;
+}
+p{
+	font-size: 1em;
+	margin-bottom: 10px;
+
 }
