@@ -1,5 +1,27 @@
-div{
-	width: 300px;
-	height: 300px;
-	background-color: blue;
+@keyframes animacao-body{
+	from{
+		background-position: center left;
+
+	}
+	to{
+		background-position: center right;
+
+	}
 }
+
+body{
+	height: 100vh;
+	background: url("http://gustavoguanabara.github.io/html-css/imagens/mascote.png");
+	background-repeat: no-repeat;
+	background-size: 150px;
+	background-position: center left;
+	animation-name: animacao-body;
+	animation-duration: 5s;
+	animation-play-state: running;
+	animation-timing-function: inherit;
+	animation-direction:normal;
+
+
+}
+
+
