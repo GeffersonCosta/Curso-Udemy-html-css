@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flexbox - Flexible Box Layout</title>
+	<style type="text/css">
+
+		.conteudo{
+			background-color: #dcdcdc;
+			
+			height: 400px;
+			display: flex;
+			/*  row | row-reverse | column | column-reverse */
+			flex-direction: row;
+			/*  nowrap | wrap | wrap-reverse */
+			flex-wrap: nowrap;
+			/*  flex-start | flex-end | center | space-between | space-around  */
+			justify-content: space-around;
+
+			/*  stretch | center | flex-start | flex-end | baseline  */
+
+			align-items: baseline;
+
+		}
+		.item{
+
+			width: 100px;
+			height: 100px;
+			
+			background-color: white;
+			border: 1px solid gray;
+			margin: 10px;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<h1>Flexbox</h1>
+	<div class="conteudo">
+		<div class="item">01</div>
+		<div class="item">02</div>
+		<div class="item">03</div>
+		<div class="item">04</div>
+	</div>
+
+</body>
+</html>
