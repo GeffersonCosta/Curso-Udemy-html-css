@@ -11,26 +11,38 @@
 			
 			height: 400px;
 			display: flex;
+			
 			/*  row | row-reverse | column | column-reverse */
-			flex-direction: row;
+			/*flex-direction: row;*/
 			/*  nowrap | wrap | wrap-reverse */
-			flex-wrap: nowrap;
+			/*flex-wrap: nowrap;*/
 			/*  flex-start | flex-end | center | space-between | space-around  */
-			justify-content: space-around;
+			/*justify-content: space-around;*/
 
 			/*  stretch | center | flex-start | flex-end | baseline  */
 
-			align-items: baseline;
+			/*align-items: baseline;*/
 
 		}
 		.item{
 
 			width: 100px;
 			height: 100px;
-			
 			background-color: white;
 			border: 1px solid gray;
 			margin: 10px;
+		}
+		.order1{
+			order:;
+		}
+		.order2{
+			order:;
+		}
+		.order3{
+			order:;
+		}
+		.order4{
+			order:-1;
 		}
 		
 	</style>
@@ -39,10 +51,10 @@
 
 	<h1>Flexbox</h1>
 	<div class="conteudo">
-		<div class="item">01</div>
-		<div class="item">02</div>
-		<div class="item">03</div>
-		<div class="item">04</div>
+		<div class="item order1">01</div>
+		<div class="item order2">02</div>
+		<div class="item order3">03</div>
+		<div class="item order4">04</div>
 	</div>
 
 </body>
